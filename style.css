@@ -1,0 +1,55 @@
+body {
+    background: rgb(39, 39, 39);
+    font-family: "Arial", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    color: white;
+    padding: 48px;
+  }
+  
+  .container {
+    border: solid 6px white;
+    width: 300px;
+  }
+  
+  .display {
+    font-size: 36px;
+    padding: 12px;
+    margin: 12px;
+    background-color: white;
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    
+  }
+  
+  .row {
+    padding: 0px 12px;
+    display: flex;
+    justify-content: space-around;
+    gap: 12px;
+    margin: 12px 0;
+  }
+  
+  .row > button {
+    font-size: 28px;
+    flex: 1 0 auto;
+    width: 20%;
+    height: 60px;
+    margin: auto 0px;
+    background-color: rgba(221, 221, 221, 0.698);
+  }
+  
+  .row > button.operator {
+    background-color: #b9e67e;
+  }
+  
+  #clear {
+    background-color: #76c9d8;
+  }
